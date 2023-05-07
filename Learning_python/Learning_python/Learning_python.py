@@ -1,6 +1,13 @@
 
-name = 'Hello World!'
-print(name)
+A = True#論理型
+B = 123#整数型
+C = 0xff#整数型
+D = 1.41421356e10#浮動小数点型
+E = 3.141e-7#浮動小数点型
+F = 'Hello World!'#文字列型
+G = 1.0+2.0j#複素数型
+H = G.real#複素数の実部出力
+I = G.imag#複素数の虚部出力
 
-del name
-print(name)
+value = 1_234_567#数値セパレーター
+
