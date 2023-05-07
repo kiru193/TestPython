@@ -1,5 +1,6 @@
 
-print(5//3)#これint型で切り捨てられて帰ってくる
-print(0.2*3)#多分誤差が出るやつ
-print(divmod(5,3))#(1,2)というように商とあまりが両方得られる
+num1 = 10
+num2 = num1
 
+print(id(num1))
+print(id(num2))
