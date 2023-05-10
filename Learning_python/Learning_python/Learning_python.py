@@ -1,6 +1,12 @@
+data1 =[1,2,3]
+data2 = data1
+data1[0] = 100
+print(data1)
+print(data2)
 
-num1 = 10
-num2 = num1
+x=1
+y=x
 
-print(id(num1))
-print(id(num2))
+x +=10
+print(x)
+print(y)
